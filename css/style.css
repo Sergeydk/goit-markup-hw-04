@@ -113,6 +113,9 @@ ul {
 .auth-nav .link:focus {
   color: var(--button-back-color);
 }
+.auth-nav .link:hover svg {
+  fill: var(--button-back-color);
+}
 .auth-nav {
   display: flex;
 
@@ -559,7 +562,10 @@ footer {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.flex-elements:hover {
+.flex-elem {
+  display: block;
+}
+.flex-elem:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
